@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+<head>
+    <title>Login page</title>
+    <link rel="stylesheet" href="./index1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+<style type="text/css">
+  
+                body{
+    
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: #DED1C0  ;
+
+
+  }
+</style>
+    
+</head>
+<body background="bg-04.jpg">
+    <script type="text/javascript">
+       function newUser()
+       {
+        window.open("sign up.html");
+       }
+    function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+    </script>
+    </br></br></br></br></br>
+    <form>
+    <h1 style="color: white;">Log In</h1>
+    <label class="lableText">Name</label>
+    <input type="text" placeholder="eg., mark" required="">
+    <label id="password">Password</label>
+        <input type="password" id="myInput" placeholder="eg., xxyyzz"required=""></br>
+        <input type="checkbox" onclick="myFunction()" ><p style="color: white;">Show Password</p>
+    <button class="submit-btn">Log In</button>
+        <div>
+                    <center>
+                        <h4 style="color: white;">Not a member?<span style="color:slateblue; cursor: pointer;" onclick="newUser()">Sign
+                                Up</span></h4>
+                      </center>
+                </div>
+    </form>
+</body>
+</html>

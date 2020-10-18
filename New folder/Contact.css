@@ -1,0 +1,43 @@
+
+body{
+	background: url(https://news.cgtn.com/news/356b544e334d544f79636a4d78637a4e324d6a4e31457a6333566d54/img/f3a9e154b0954522bf9b3ca6d6e8e318/f3a9e154b0954522bf9b3ca6d6e8e318.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: lato;
+    color: white;
+
+}
+#content {
+
+	text-align:center;
+    padding-top: 25%;
+    text-shadow: 1px 1px 2px pink;
+
+}
+html{
+	height: 100%;
+}
+h1{
+	font-weight: 700;
+	font-size: 5em;
+	color: grey;
+}
+hr{
+  width: 155%;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+h3{
+	color: grey;
+}
+#back{
+	   opacity: 0.8;
+}
+label{
+	color: chartreuse;
+}
+
+p{
+	color: red;
+}

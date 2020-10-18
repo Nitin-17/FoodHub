@@ -1,0 +1,92 @@
+#banner_image{
+padding-top: 23%;
+padding-bottom: 30%;
+text-align: center;
+height: 100%;
+width: 100%;
+background: url(food.jpg) no-repeat center center;
+background-size: cover; 
+
+    background-position: center;
+    font-family: lato;
+
+}
+
+#nav1{
+
+	margin-top: -25%;
+	background-color: transparent;
+	box-shadow: 0px 0px;
+	border-width: 0px;
+	width: 100%;
+
+}
+
+
+
+li a:hover{
+		list-style-type: none;
+	overflow: hidden;
+	text-decoration: none;
+	color: chartreuse;
+}
+
+#ul1{
+
+	padding-top: 2%;
+	margin-top: 16%;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: grey;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: block;
+  opacity: 0.8;
+}
+
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+
+  right: 15px;
+
+  margin-right: 1%;
+  color: red;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

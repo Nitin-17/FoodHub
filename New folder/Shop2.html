@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Desserts</title>
+	  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+
+  <script type="text/javascript" src="proto.js">
+    
+  </script>
+
+  <style type="text/css">
+    body{
+    
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: #EFE9F1 ;
+ 
+
+  }
+
+ div.ex1:hover, div.ex1:active {
+
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  background-color: white;
+ }
+
+  </style>
+</head>
+<body>
+	<nav class="navbar navbar-default" >
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" >
+      <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#mynav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Front.html">Food Hub</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="mynav">
+      <ul class="nav navbar-nav">
+        <li><a href="Protohome.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+
+      </ul>
+
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron jumbotron-fluid row" style="background-color: #171a29; color: white; width: 101.3%;">
+  <div class="container">
+ 
+    <div class="col-md-2 col-xs-2">
+       <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vegan-cakes-desserts-1540904173.jpg" height="135%" width="154%" style=" margin-right: 100px;">
+ 
+     
+   </div>
+   <div>
+
+    <h2 style="margin: 0px 50px 0px 240px;">Just Dessert Thing</h2>  
+    <p class="glyphicon glyphicon-ice-lolly" aria-hidden="true" style="margin: 10px 40px 0px 90px; opacity: 0.7; font-size: 14px; word-spacing: -7px; ">   
+    Indian, Chinese, Italian, Tandoori</p> <br>
+     <p class="glyphicon glyphicon-pushpin" aria-hidden="true" style="margin: 10px 40px 0px 90px; opacity: 0.7; font-size: 14px; word-spacing: -7px;"> BH5 Food Court, LPU</p> 
+  </div>
+  </div>
+</div>
+
+    <div class="container">
+
+        <!--Items in First Row -->
+        
+    <div class="row ex1"> 
+        <div class="card mb-3" style="max-width: 540px;">
+           <div class="row no-gutters" style="float: left;">
+             <div class="col-md-4">
+                <img src="https://realfood.tesco.com/media/images/RFO-1400x919-classic-chocolate-mousse-69ef9c9c-5bfb-4750-80e1-31aafbd80821-0-1400x919.jpg" width="100%;">
+    </div>
+    <div class="col-md-8">
+       <div class="card-body">
+          <h4 class="card-title"></p> Classical Chocolate Mousse</h4>
+          <p class="card-text" style="opacity: 0.7;">Shakes, Get 25% OFF </p><div>
+          <p class="glyphicon glyphicon-usd" aria-hidden="true" style="opacity: 0.6; font-size: 14px; word-spacing: -7px;"></p>50</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+    <div class="card-body">
+      <div class="row">
+   
+        <button class="card-title btn btn-light" style="margin: 40px 0px 0px 220px;" onclick="add()">+</button>
+            <button class="btn btn-light" style="margin: 40px 0px 0px 0px;"  id="value" >0</button>
+        <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" onclick="remove()">-</button>
+        <p class="card-text"></p>
+        </div>
+       </div>
+</div>
+</div><br style="margin-top: 100px;"><hr style="opacity: 0.1;">
+
+
+
+
+<!--Second Item -->
+        <div class="row ex1"> 
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters" style="float: left;">
+                   <div class="col-md-4">
+                    <img src="https://cdn-image.foodandwine.com/sites/default/files/styles/medium_2x/public/recipe1115-xl-chocolate-peanut-butter-swiss-rolls_0.jpg?itok=uab3JMyU" width="100%;">
+                  </div>
+                <div class="col-md-8">
+        <div class="card-body">
+                <h4 class="card-title"></p> Chocolate-Peanut Butter Swiss Rolls</h4>
+          <p class="card-text" style="opacity: 0.7;">Rolls, Get 55% OFF </p><div>
+          <p class="glyphicon glyphicon-usd" aria-hidden="true" style="opacity: 0.6; font-size: 14px; word-spacing: -7px;"></p>30</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+    <div class="card-body">
+      <div class="row">
+   
+        <button class="card-title btn btn-light" style="margin: 40px 0px 0px 220px;" onclick="add1()">+</button>
+            <button class="btn btn-light" style="margin: 40px 0px 0px 0px;"  id="value1" >0</button>
+        <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" onclick="remove1()">-</button>
+        <p class="card-text"></p>
+        </div>
+       </div>
+</div>
+</div><br style="margin-top: 100px;"><hr style="opacity: 0.1;">
+
+
+
+
+<!--Third Item -->
+      <div class="row ex1"> 
+         <div class="card mb-3" style="max-width: 540px;">
+             <div class="row no-gutters" style="float: left;">
+               <div class="col-md-4">
+                   <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_634,c_fill,g_auto,h_357,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F181127110638-21-50-sweets-travel-black-forest-cake.jpg" width="100%;">
+    </div>
+              <div class="col-md-8">
+                   <div class="card-body">
+                        <h4 class="card-title"></p>Black Forest Cake</h4>
+          <p class="card-text" style="opacity: 0.7;">Cake, Get 65% OFF </p><div>
+          <p class="glyphicon glyphicon-usd" aria-hidden="true" style="opacity: 0.6; font-size: 14px; word-spacing: -7px;"></p>87</div> 
+                    </div>
+               </div>
+                </div>
+                </div>
+                 <div>
+    <div class="card-body">
+      <div class="row">
+   
+        <button class="card-title btn btn-light" style="margin: 40px 0px 0px 220px;" onclick="add2()">+</button>
+            <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" id="value2" >0</button>
+        <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" onclick="remove2()">-</button>
+        <p class="card-text"></p>
+        </div>
+       </div>
+       </div>
+         </div><br style="margin-top: 100px;"><hr style="opacity: 0.1;">
+
+
+         <!--Fourth Item -->
+        <div class="row ex1"> 
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters" style="float: left;">
+                   <div class="col-md-4">
+                    <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_634,c_fill,g_auto,h_357,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F181127111010-22-50-sweets-travel-cardamom-buns.jpg" width="100%;">
+                  </div>
+                <div class="col-md-8">
+         <div class="card-body">
+                <h4 class="card-title"></p>Cardamom Buns</h4>
+          <p class="card-text" style="opacity: 0.7;">Pastry, Get 45% OFF </p><div>
+          <p class="glyphicon glyphicon-usd" aria-hidden="true" style="opacity: 0.6; font-size: 14px; word-spacing: -7px;"></p>30</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+    <div class="card-body">
+      <div class="row">
+   
+        <button class="card-title btn btn-light" style="margin: 40px 0px 0px 220px;" onclick="add3()">+</button>
+            <button class="btn btn-light" style="margin: 40px 0px 0px 0px;"  id="value3" >0</button>
+        <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" onclick="remove3()">-</button>
+        <p class="card-text"></p>
+        </div>
+       </div>
+</div>
+</div><br style="margin-top: 100px;"><hr style="opacity: 0.1;">
+
+
+         <!--Fifth Item -->
+        <div class="row ex1"> 
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters" style="float: left;">
+                   <div class="col-md-4">
+                    <img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_634,c_fill,g_auto,h_357,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F181127110000-14-50-sweets-travel-kouign-amann.jpg" width="100%;">
+                  </div>
+                <div class="col-md-8">
+         <div class="card-body">
+                <h4 class="card-title"></p>Kouign Amann</h4>
+          <p class="card-text" style="opacity: 0.7;">Pastery, Get 75% OFF </p><div>
+          <p class="glyphicon glyphicon-usd" aria-hidden="true" style="opacity: 0.6; font-size: 14px; word-spacing: -7px;"></p>30</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+    <div class="card-body">
+      <div class="row">
+   
+        <button class="card-title btn btn-light" style="margin: 40px 0px 0px 220px;" onclick="add4()">+</button>
+            <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" id="value4" >0</button>
+        <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" onclick="remove4()">-</button>
+        <p class="card-text"></p>
+        </div>
+       </div>
+</div>
+</div><br style="margin-top: 100px;"><hr style="opacity: 0.1;">
+
+
+
+
+
+
+
+ </div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shakes</title>
+	  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+
+  <script type="text/javascript" src="proto.js">
+    
+  </script>
+
+  <style type="text/css">
+    body{
+    
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: #EFE9F1 ;
+ 
+
+  }
+
+ div.ex1:hover, div.ex1:active {
+
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  background-color: white;
+ }
+
+  </style>
+</head>
+<body>
+	<nav class="navbar navbar-default" >
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header" >
+      <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#mynav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Front.html">Food Hub</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="mynav">
+      <ul class="nav navbar-nav">
+        <li><a href="Protohome.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+
+      </ul>
+
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron jumbotron-fluid row" style="background-color: #171a29; color: white; width: 101.3%;">
+  <div class="container">
+ 
+    <div class="col-md-2 col-xs-2">
+       <img src="https://www.biggerbolderbaking.com/wp-content/uploads/2015/05/BBB71-Homemade-Ice-Cream-Milkshakes-Thumbnail-v.1.jpg" height="135%" width="154%" style=" margin-right: 100px;">
+ 
+     
+   </div>
+   <div>
+
+    <h2 style="margin: 0px 50px 0px 240px;">ShakesVilla</h2>  
+    <p class="glyphicon glyphicon-ice-lolly" aria-hidden="true" style="margin: 10px 40px 0px 90px; opacity: 0.7; font-size: 14px; word-spacing: -7px; ">   
+    Indian, Chinese, Italian, Tandoori</p> <br>
+     <p class="glyphicon glyphicon-pushpin" aria-hidden="true" style="margin: 10px 40px 0px 90px; opacity: 0.7; font-size: 14px; word-spacing: -7px;"> BH5 Food Court, LPU</p> 
+  </div>
+  </div>
+</div>
+
+    <div class="container">
+
+        <!--Items in First Row -->
+        
+    <div class="row ex1"> 
+        <div class="card mb-3" style="max-width: 540px;">
+           <div class="row no-gutters" style="float: left;">
+             <div class="col-md-4">
+                <img src="http://www.allonseat.com/wp-content/uploads/2019/05/Tahini-Mocha-Shakes-3.jpg" width="100%;">
+    </div>
+    <div class="col-md-8">
+       <div class="card-body">
+          <h4 class="card-title"></p>Tahini Mocha</h4>
+          <p class="card-text" style="opacity: 0.7;">Shakes, Get 25% OFF </p><div>
+          <p class="glyphicon glyphicon-usd" aria-hidden="true" style="opacity: 0.6; font-size: 14px; word-spacing: -7px;"></p>50</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+    <div class="card-body">
+      <div class="row">
+   
+        <button class="card-title btn btn-light" style="margin: 40px 0px 0px 220px;" onclick="add()">+</button>
+            <button class="btn btn-light" style="margin: 40px 0px 0px 0px;"  id="value" >0</button>
+        <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" onclick="remove()">-</button>
+        <p class="card-text"></p>
+        </div>
+       </div>
+</div>
+</div><br style="margin-top: 100px;"><hr style="opacity: 0.1;">
+
+
+
+
+<!--Second Item -->
+        <div class="row ex1"> 
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters" style="float: left;">
+                   <div class="col-md-4">
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-copycat-shamrock-shakes-still001-1550601305.jpg" width="100%;">
+                  </div>
+                <div class="col-md-8">
+        <div class="card-body">
+                <h4 class="card-title"></p>CopyCat McDonald's Shamrock</h4>
+          <p class="card-text" style="opacity: 0.7;">Shakes, Get 55% OFF </p><div>
+          <p class="glyphicon glyphicon-usd" aria-hidden="true" style="opacity: 0.6; font-size: 14px; word-spacing: -7px;"></p>30</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+    <div class="card-body">
+      <div class="row">
+   
+        <button class="card-title btn btn-light" style="margin: 40px 0px 0px 220px;" onclick="add1()">+</button>
+            <button class="btn btn-light" style="margin: 40px 0px 0px 0px;"  id="value1" >0</button>
+        <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" onclick="remove1()">-</button>
+        <p class="card-text"></p>
+        </div>
+       </div>
+</div>
+</div><br style="margin-top: 100px;"><hr style="opacity: 0.1;">
+
+
+
+
+<!--Third Item -->
+      <div class="row ex1"> 
+         <div class="card mb-3" style="max-width: 540px;">
+             <div class="row no-gutters" style="float: left;">
+               <div class="col-md-4">
+                   <img src="https://s23991.pcdn.co/wp-content/uploads/2019/06/blueberry-pie-milkshake-fp.jpg" width="100%;">
+    </div>
+              <div class="col-md-8">
+                   <div class="card-body">
+                        <h4 class="card-title"></p>BlueBerry Pie</h4>
+          <p class="card-text" style="opacity: 0.7;">Shake, Get 65% OFF </p><div>
+          <p class="glyphicon glyphicon-usd" aria-hidden="true" style="opacity: 0.6; font-size: 14px; word-spacing: -7px;"></p>87</div> 
+                    </div>
+               </div>
+                </div>
+                </div>
+                 <div>
+    <div class="card-body">
+      <div class="row">
+   
+        <button class="card-title btn btn-light" style="margin: 40px 0px 0px 220px;" onclick="add2()">+</button>
+            <button class="btn btn-light" style="margin: 40px 0px 0px 0px;"  id="value2" >0</button>
+        <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" onclick="remove2()">-</button>
+        <p class="card-text"></p>
+        </div>
+       </div>
+       </div>
+         </div><br style="margin-top: 100px;"><hr style="opacity: 0.1;">
+
+
+         <!--Fourth Item -->
+        <div class="row ex1"> 
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters" style="float: left;">
+                   <div class="col-md-4">
+                    <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/6/13/0/FNM_070112-50-Milkshakes-5-1_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371609102889.jpeg" width="100%;">
+                  </div>
+                <div class="col-md-8">
+         <div class="card-body">
+                <h4 class="card-title"></p>Lemon Meringue</h4>
+          <p class="card-text" style="opacity: 0.7;">Shakes, Get 45% OFF </p><div>
+          <p class="glyphicon glyphicon-usd" aria-hidden="true" style="opacity: 0.6; font-size: 14px; word-spacing: -7px;"></p>30</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+    <div class="card-body">
+      <div class="row">
+   
+        <button class="card-title btn btn-light" style="margin: 40px 0px 0px 220px;" onclick="add3()">+</button>
+            <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" id="value3" >0</button>
+        <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" onclick="remove3()">-</button>
+        <p class="card-text"></p>
+        </div>
+       </div>
+</div>
+</div><br style="margin-top: 100px;"><hr style="opacity: 0.1;">
+
+
+         <!--Fifth Item -->
+        <div class="row ex1"> 
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row no-gutters" style="float: left;">
+                   <div class="col-md-4">
+                    <img src="https://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/orange-dreamsicle-smoothie-ck.jpg?itok=aIqmBh9K" width="100%;">
+                  </div>
+                <div class="col-md-8">
+         <div class="card-body">
+                <h4 class="card-title"></p>Orange Dreamsicle Smoothie</h4>
+          <p class="card-text" style="opacity: 0.7;">Shakes, Get 75% OFF </p><div>
+          <p class="glyphicon glyphicon-usd" aria-hidden="true" style="opacity: 0.6; font-size: 14px; word-spacing: -7px;"></p>30</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+    <div class="card-body">
+      <div class="row">
+   
+        <button class="card-title btn btn-light" style="margin: 40px 0px 0px 220px;" onclick="add4()">+</button>
+            <button class="btn btn-light" style="margin: 40px 0px 0px 0px;"  id="value4" >0</button>
+        <button class="btn btn-light" style="margin: 40px 0px 0px 0px;" onclick="remove4()">-</button>
+        <p class="card-text"></p>
+        </div>
+       </div>
+</div>
+</div><br style="margin-top: 100px;"><hr style="opacity: 0.1;">
+
+
+
+
+
+
+
+ </div>
+
+
+
+
+
+</body>
+</html>

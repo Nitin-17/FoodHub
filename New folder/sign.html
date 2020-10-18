@@ -1,0 +1,56 @@
+<!Doctype html>
+<html>
+<head>
+    <title>SignUp page</title>
+    <link rel="stylesheet" href="index1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+<style type="text/css">
+  
+                body{
+    
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: #DED1C0  ;
+
+
+  }
+</style>
+    <script type="text/javascript">
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+  </script>
+</head>
+<body background="bg-04.jpg">
+    <form>
+    <form name="myForm" action="abc.php" onsubmit="return validateForm()" method="post">
+    <h1 style="color: white;">Sign up</h1>
+    <label class="lableText">First Name</label>
+    <input type="text" name="fname" placeholder="eg., mark" required="">
+    <label class="lableText">Last Name</label>
+    <input type="text" placeholder="eg., Green" required="">
+    <label>Email</label>
+    <input type="email" placeholder="eg., test@upgrad.com"required="">
+    <label id="password">Password</label>
+    <input type="password" id="myInput" placeholder="eg., xxyyzz"required="">
+    <input type="checkbox" onclick="myFunction()"><p style="color: white;">Show Password</p>
+    <label>Mobile</label>
+    <input type="number" placeholder="eg., 1234567890"required=""><br>
+    <button class="submit-btn" onclick="newUser2()">Sign Up</button>
+    </form>
+</body>
+</html>
